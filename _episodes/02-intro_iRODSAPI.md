@@ -3,21 +3,20 @@ title: "Basic data handling with iRODS API"
 teaching: 10
 exercises: 0
 questions:
-- "How are the files in a lesson organized?"
+- "How can you connect to iRODS instance and perform basic file handling with iRODS?"
 objectives:
-- "Explain overall organization of lesson files."
+- "tbd"
 keypoints:
-- "Auxiliary files are stored in the _layouts, _includes, and assets directories."
-- "The code of conduct, license, Makefile, and contribution guidelines should not be modified."
-- "The README, authors' list, and citation instructions must be updated for each lesson."
-- "The home page, reference guide, setup instructions, discussion page, and instructors' guide must be updated for each lesson."
-- "The Makefile stores commonly-used commands."
+- "iRODS Python API"
+- "Everything is an object"
 ---
 
-Each lesson is made up of *episodes*, which are focused on a particular topic and
-include time for both teaching and exercises.
-The episodes of this lesson explain the tools we use to create lessons
-and the formatting rules those lessons must follow.
+You will learn how to interact with iRODS via the python API. In this module we will explore the API in interactive mode. 
+You will:
+- Up and download data
+- Up and download data collections
+- Add and edit metadata
+- Set Accession control lists for data objects and collections
 
 > ## Why "Episodes"?
 >
