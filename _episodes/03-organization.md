@@ -1,5 +1,5 @@
 ---
-title: "Lesson Organization"
+title: "Basic data handling with iRODS API"
 teaching: 10
 exercises: 0
 questions:
