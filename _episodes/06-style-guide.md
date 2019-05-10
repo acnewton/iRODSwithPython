@@ -1,5 +1,5 @@
 ---
-title: "Style Guide"
+title: "And now what?"
 teaching: 10
 exercises: 0
 questions:
