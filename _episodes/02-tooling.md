@@ -3,23 +3,21 @@ title: "Why handling data programmatically?"
 teaching: 10
 exercises: 0
 questions:
-- "How are pages published?"
+- "What does it mean to address data programmatically?"
+- "Why is it convenient to address data in such a way"
+- "What storage systems are able to be addressed programmatically?"
 objectives:
-- "Explain how GitHub Pages produce web sites from Git repositories."
-- "Explain Jekyll's formatting rules."
+- "Explain APIs of storage systems"
+- "Explain how iRODS can be used"
 keypoints:
-- "Lessons are stored in Git repositories on GitHub."
-- "Lessons are written in Markdown."
-- "Jekyll translates the files in the gh-pages branch into HTML for viewing."
-- "The site's configuration is stored in _config.yml."
-- "Each page's configuration is stored at the top of that page."
-- "Groups of files are stored in collection directories whose names begin with an underscore."
+- "Programmatically addressing data improves data provenance"
+- "iRODS has several APIs that can be incorporated into data handling scripts, *e.g.* in our case Python API"
+- "Programmatically addressing data does not solve your data provenance problems magically"
 ---
 
-This episode describes the tools we use to build and manage lessons.
-These simplify many tasks, but make other things more complicated.
+After this episode, students should have a better view on what it means to use the iRODS API to address data.
 
-## Does this information propagate?
+## Data provenance
 
 Our lessons are stored in Git repositories (or "repos") on GitHub.
 We use the term *fork* to mean
@@ -48,7 +46,7 @@ to update the lesson when the template changes.
 
 ![Repository Links]({{ page.root }}/fig/repository-links.svg)
 
-## GitHub Pages
+## Storage APIs
 
 If a repository has a branch called `gh-pages` (short for "GitHub Pages"),
 GitHub publishes its content to create a website for the repository.
@@ -87,7 +85,7 @@ A [later episode]({{ page.root }}/04-formatting/) describes the Markdown we use.
 > All we specify is the format of the lesson notes.
 {: .callout}
 
-## Jekyll
+## iRODS Python API
 
 GitHub uses [Jekyll][jekyll] to turn Markdown into HTML.
 It looks for text files that begin with a header formatted like this:
