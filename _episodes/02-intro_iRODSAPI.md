@@ -5,7 +5,11 @@ exercises: 0
 questions:
 - "How can you connect to iRODS instance and perform basic file handling with iRODS?"
 objectives:
-- "tbd"
+- "connect to iRODS via the Python API with some security considerations"
+- "upload/download data from iRODS"
+- "create collections and access all objects in collections"
+- "adding metadata to objects and collections"
+- "querying for data based on metadata"
 keypoints:
 - "iRODS Python API"
 - "Everything is an object"
