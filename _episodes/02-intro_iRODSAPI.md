@@ -26,7 +26,7 @@ The module *getpass* asks for passwords without printing the input on screen. Wi
 import getpass
 pw = getpass.getpass().encode('base64')
 ~~~
-{: .py}
+{: .language-python}
 
 # Standard Files
 
