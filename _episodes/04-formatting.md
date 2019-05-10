@@ -1,5 +1,5 @@
 ---
-title: "Formatting"
+title: "Data processing with iRODS storage"
 teaching: 10
 exercises: 0
 questions:
