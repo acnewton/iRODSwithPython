@@ -1,5 +1,5 @@
 ---
-title: "Lesson Design"
+title: "iRODS introduction"
 redirect_to:
 - https://carpentries.github.io/curriculum-development/
 questions:
