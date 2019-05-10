@@ -18,49 +18,15 @@ You will:
 - Add and edit metadata
 - Set Accession control lists for data objects and collections
 
-> ## Why "Episodes"?
->
-> We call the parts of lessons "episodes" because
-> every other term (like "topic") already has multiple meanings,
-> and because it encourages us to think of breaking up our lessons
-> into chunks that are about as long as a typical movie scene,
-> which is better for learning than long blocks without interruption.
-{: .callout}
 
-Our lessons need artwork,
-CSS style files,
-and a few bits of Javascript.
-We could load these from the web,
-but that would make offline authoring difficult.
-Instead, each lesson's repository is self-contained.
+## Connect to iRODS
 
-The diagram below shows how source files and directories are laid out,
-and how they are mapped to destination files and directories:
-
-![Source and Destination Files]({{ page.root }}/fig/file-mapping.svg)
-
-> ## Collections
->
-> As described [earlier]({{ page.root }}/02-tooling/#collections),
-> files that appear as top-level items in the navigation menu are stored in the root directory.
-> Files that appear under the "extras" menu are stored in the `_extras` directory,
-> while lesson episodes are stored in the `_episodes` directory.
-{: .callout}
-
-## Helper Files
-
-As is standard with [Jekyll][jekyll] sites,
-page layouts are stored in `_layouts`
-and snippets of HTML included by these layouts are stored in `_includes`.
-Each of these files includes a comment explaining its purpose.
-
-Authors do not have to specify that episodes use the `episode.html` layout,
-since that is set by the configuration file.
-Pages that authors create should have the `page` layout unless specified otherwise below.
-
-The `assets` directory contains the CSS, Javascript, fonts, and image files
-used in the generated website.
-Authors should not modify these.
+The module *getpass* asks for passwords without printing the input on screen. With en encoding function we prevent that the variable contains the plain password.
+~~~
+import getpass
+pw = getpass.getpass().encode('base64')
+~~~
+{: .py}
 
 # Standard Files
 
