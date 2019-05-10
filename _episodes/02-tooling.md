@@ -1,5 +1,5 @@
 ---
-title: "GitHub, Markdown, and Jekyll"
+title: "Why handling data programmatically?"
 teaching: 10
 exercises: 0
 questions:
