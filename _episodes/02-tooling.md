@@ -19,7 +19,7 @@ keypoints:
 This episode describes the tools we use to build and manage lessons.
 These simplify many tasks, but make other things more complicated.
 
-## Repositories on GitHub
+## Does this information propagate?
 
 Our lessons are stored in Git repositories (or "repos") on GitHub.
 We use the term *fork* to mean
